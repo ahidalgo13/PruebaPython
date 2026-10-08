@@ -1,0 +1,14 @@
+import os
+import subprocess
+
+# Limpiar pantalla en Windows
+subprocess.run("cls", shell=True)
+
+import math
+
+numero = 25
+
+raiz = math.sqrt(numero)
+
+print("Número:", numero)
+print("Raíz cuadrada:", raiz)
